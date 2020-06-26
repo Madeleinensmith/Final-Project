@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D8DF60424A4F4790073486D /* enterTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8DF60324A4F4790073486D /* enterTextFieldViewController.swift */; };
+		9D8DF60824A52F170073486D /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8DF60724A52F170073486D /* InformationViewController.swift */; };
+		9D9C161024A648A700D942D6 /* dailySummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9C160F24A648A700D942D6 /* dailySummaryViewController.swift */; };
 		9DCA70CD24A2DDAD0081CEBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA70CC24A2DDAD0081CEBB /* AppDelegate.swift */; };
 		9DCA70CF24A2DDAD0081CEBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA70CE24A2DDAD0081CEBB /* SceneDelegate.swift */; };
 		9DCA70D124A2DDAD0081CEBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA70D024A2DDAD0081CEBB /* ViewController.swift */; };
@@ -14,9 +17,17 @@
 		9DCA70D724A2DDAD0081CEBB /* Final_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA70D524A2DDAD0081CEBB /* Final_Project.xcdatamodeld */; };
 		9DCA70D924A2DDB20081CEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCA70D824A2DDB20081CEBB /* Assets.xcassets */; };
 		9DCA70DC24A2DDB20081CEBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCA70DA24A2DDB20081CEBB /* LaunchScreen.storyboard */; };
+		9DF1801224A3A65300840F1C /* Cinzel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DF1801124A3A65300840F1C /* Cinzel-Regular.ttf */; };
+		9DF1801424A3A7B500840F1C /* Cinzel-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DF1801324A3A7B500840F1C /* Cinzel-Bold.ttf */; };
+		9DF1801624A3AA6800840F1C /* RandomFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF1801524A3AA6800840F1C /* RandomFactViewController.swift */; };
+		9DF1801824A4391600840F1C /* hyperLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF1801724A4391600840F1C /* hyperLinkViewController.swift */; };
+		9DF1801C24A43A6300840F1C /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF1801B24A43A6300840F1C /* NSAttributedStringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D8DF60324A4F4790073486D /* enterTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enterTextFieldViewController.swift; sourceTree = "<group>"; };
+		9D8DF60724A52F170073486D /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		9D9C160F24A648A700D942D6 /* dailySummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailySummaryViewController.swift; sourceTree = "<group>"; };
 		9DCA70C924A2DDAD0081CEBB /* Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCA70CC24A2DDAD0081CEBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DCA70CE24A2DDAD0081CEBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +37,11 @@
 		9DCA70D824A2DDB20081CEBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DCA70DB24A2DDB20081CEBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DCA70DD24A2DDB20081CEBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF1801124A3A65300840F1C /* Cinzel-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cinzel-Regular.ttf"; path = "../../../Cinzel (1)/Cinzel-Regular.ttf"; sourceTree = "<group>"; };
+		9DF1801324A3A7B500840F1C /* Cinzel-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cinzel-Bold.ttf"; path = "../../../Cinzel (1)/Cinzel-Bold.ttf"; sourceTree = "<group>"; };
+		9DF1801524A3AA6800840F1C /* RandomFactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFactViewController.swift; sourceTree = "<group>"; };
+		9DF1801724A4391600840F1C /* hyperLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyperLinkViewController.swift; sourceTree = "<group>"; };
+		9DF1801B24A43A6300840F1C /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +78,18 @@
 				9DCA70CE24A2DDAD0081CEBB /* SceneDelegate.swift */,
 				9DCA70D024A2DDAD0081CEBB /* ViewController.swift */,
 				9DCA70D224A2DDAD0081CEBB /* Main.storyboard */,
+				9D9C160F24A648A700D942D6 /* dailySummaryViewController.swift */,
+				9DF1801724A4391600840F1C /* hyperLinkViewController.swift */,
+				9D8DF60724A52F170073486D /* InformationViewController.swift */,
+				9D8DF60324A4F4790073486D /* enterTextFieldViewController.swift */,
+				9DF1801524A3AA6800840F1C /* RandomFactViewController.swift */,
+				9DF1801324A3A7B500840F1C /* Cinzel-Bold.ttf */,
+				9DF1801124A3A65300840F1C /* Cinzel-Regular.ttf */,
 				9DCA70D824A2DDB20081CEBB /* Assets.xcassets */,
 				9DCA70DA24A2DDB20081CEBB /* LaunchScreen.storyboard */,
 				9DCA70DD24A2DDB20081CEBB /* Info.plist */,
 				9DCA70D524A2DDAD0081CEBB /* Final_Project.xcdatamodeld */,
+				9DF1801B24A43A6300840F1C /* NSAttributedStringExtension.swift */,
 			);
 			path = "Final Project";
 			sourceTree = "<group>";
@@ -128,8 +152,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DF1801424A3A7B500840F1C /* Cinzel-Bold.ttf in Resources */,
 				9DCA70DC24A2DDB20081CEBB /* LaunchScreen.storyboard in Resources */,
 				9DCA70D924A2DDB20081CEBB /* Assets.xcassets in Resources */,
+				9DF1801224A3A65300840F1C /* Cinzel-Regular.ttf in Resources */,
 				9DCA70D424A2DDAD0081CEBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,10 +167,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DF1801624A3AA6800840F1C /* RandomFactViewController.swift in Sources */,
 				9DCA70D124A2DDAD0081CEBB /* ViewController.swift in Sources */,
+				9D9C161024A648A700D942D6 /* dailySummaryViewController.swift in Sources */,
 				9DCA70CD24A2DDAD0081CEBB /* AppDelegate.swift in Sources */,
+				9DF1801C24A43A6300840F1C /* NSAttributedStringExtension.swift in Sources */,
+				9DF1801824A4391600840F1C /* hyperLinkViewController.swift in Sources */,
 				9DCA70D724A2DDAD0081CEBB /* Final_Project.xcdatamodeld in Sources */,
 				9DCA70CF24A2DDAD0081CEBB /* SceneDelegate.swift in Sources */,
+				9D8DF60424A4F4790073486D /* enterTextFieldViewController.swift in Sources */,
+				9D8DF60824A52F170073486D /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
